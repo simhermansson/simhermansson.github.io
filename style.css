@@ -1,0 +1,105 @@
+body {
+    padding:50px;
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+    color:#777;
+    font-weight:300;
+}
+
+h1, h2 {
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+    color:#222;
+    margin:10px 0 10px;
+    line-height:1.1;
+}
+
+h1 {
+    font-size:28px;
+}
+
+h2 {
+    color:#393939;
+}
+
+p, ul {
+    margin:0 0 20px;
+}
+
+a {
+    text-decoration:none;
+}
+
+img {
+    max-width:100%;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale;
+}
+
+.profile, .github {
+    border-radius:50%;
+}
+
+header {
+    width:280px;
+    float:left;
+    position:fixed;
+}
+
+section {
+    width:500px;
+    float:right;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.wrapper {
+    width:880px;
+    margin:0 auto;
+}
+
+@media print, screen and (max-width:960px) {
+    div.wrapper {
+        width:auto;
+        margin:0;
+    }
+
+    header, section {
+        float:none;
+        position:static;
+        width:auto;
+    }
+
+    header {
+        padding-right:320px;
+    }
+
+    section {
+        border:1px solid #e5e5e5;
+        border-width:1px 0;
+        padding:20px 0;
+        margin:0 0 20px;
+    }
+}
+
+@media print, screen and (max-width:720px) {
+    body {
+        word-wrap:break-word;
+    }
+
+    header {
+        padding:0;
+    }
+}
+
+@media print, screen and (max-width:480px) {
+    body {
+        padding:15px;
+    }
+}
+
+@media print {
+    body {
+        padding:0.4in;
+        font-size:12pt;
+        color:#444;
+    }
+}
