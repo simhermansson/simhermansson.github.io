@@ -5,9 +5,9 @@ body {
     font-weight:300;
 }
 
-h1, h2 {
+h1, h2, h3, a, a:link, a:visited {
     font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
-    color:#222;
+    color:#00cad5;
     margin:10px 0 10px;
     line-height:1.1;
 }
@@ -38,10 +38,15 @@ img {
     border-radius:50%;
 }
 
+.github, .linkedin {
+	padding-top:2px;
+}
+
 header {
     width:280px;
     float:left;
     position:fixed;
+	line-height:22px;
 }
 
 section {
@@ -54,6 +59,7 @@ section {
 .wrapper {
     width:880px;
     margin:0 auto;
+	overflow:auto;
 }
 
 @media print, screen and (max-width:960px) {
