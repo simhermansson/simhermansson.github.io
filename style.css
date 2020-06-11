@@ -30,8 +30,6 @@ a {
 
 img {
     max-width:100%;
-    -webkit-filter:grayscale(100%);
-    filter:grayscale;
 }
 
 .profile, .github {
@@ -39,7 +37,9 @@ img {
 }
 
 .github, .linkedin {
-	padding-top:2px;
+    padding-top:2px;
+    -webkit-filter:grayscale(100%);
+    filter:grayscale;
 }
 
 header {
