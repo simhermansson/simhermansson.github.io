@@ -1,7 +1,7 @@
 body {
     padding:50px;
     font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
-    color:#777;
+    color:#686868;
     font-weight:300;
 }
 
@@ -38,8 +38,20 @@ img {
 }
 
 .github, .linkedin {
+    height:24px;
+    width:24px;
+    box-sizing:border-box;
     padding-top:2px;
-    -webkit-filter:grayscale(100%);
+    background:#686868;
+    transition: background 0.3s;
+}
+
+.linkedin {
+    border-radius:15%;
+}
+
+.github:hover, .linkedin:hover {
+    background:#00cad5;
 }
 
 header {
