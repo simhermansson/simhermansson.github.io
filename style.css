@@ -1,12 +1,12 @@
 body {
     padding:50px;
-    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+    font-family: Bitstream Vera Sans Mono, monospace, sans-serif;
     color:#686868;
     font-weight:300;
 }
 
 h1, h2, a, a:link, a:visited {
-    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
+    font-family: Bitstream Vera Sans Mono, monospace, sans-serif;
     color:#00cad5;
     margin:10px 0 10px;
     line-height:1.1;
