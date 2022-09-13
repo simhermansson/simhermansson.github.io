@@ -1,8 +1,9 @@
 body {
     padding:50px;
     font-family: Bitstream Vera Sans Mono, monospace, sans-serif;
-    color:#686868;
+    color:#A5A093;
     font-weight:300;
+    background: #181A1B;
 }
 
 h1, h2, a, a:link, a:visited {
@@ -41,7 +42,7 @@ img {
     height:24px;
     width:24px;
     box-sizing:border-box;
-    padding-top:2px;
+    margin-top:4px;
     background:#686868;
     transition: background 0.3s;
 }
