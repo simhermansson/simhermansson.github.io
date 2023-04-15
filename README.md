@@ -1,3 +1,3 @@
-# Personal website for Simon Hermansson.
+# Personal website.
 
 https://simonhermansson.com/
