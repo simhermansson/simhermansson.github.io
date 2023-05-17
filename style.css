@@ -6,7 +6,13 @@ body {
     background: #181A1B;
 }
 
-h1, h2, a, a:link, a:visited {
+h1, h2{
+    font-family: Bitstream Vera Sans Mono, monospace, sans-serif;
+    margin:10px 0 10px;
+    line-height:1.1;
+}
+
+a, a:link, a:visited {
     font-family: Bitstream Vera Sans Mono, monospace, sans-serif;
     color:#00cad5;
     margin:10px 0 10px;
