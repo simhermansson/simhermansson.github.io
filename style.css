@@ -40,16 +40,26 @@ img {
     max-width:100%;
 }
 
-.profile, .github {
+.project-item {
+    display: flex;
+    vertical-align: middle;
+}
+
+.project-item img {
+    margin-left: 10px;
+}
+
+.profile, .github, .youtube {
     border-radius:50%;
 }
 
-.github, .linkedin {
+.github, .linkedin, .youtube {
     height:24px;
     width:24px;
     box-sizing:border-box;
     margin-top:4px;
     background:#686868;
+    filter: grayscale(0.3);
     transition: background 0.3s;
 }
 
